@@ -13,7 +13,7 @@ BS-D04「Microsoft Azure と AI で加速するデジタル改革」でご紹介
 ### 音声認識(Speech to Text)、音声テキスト変換(Text to Speech)
 
 - Speech Service
-  - [ソースコード](tree/master/speechservice) (UWP)
+  - [サンプルソースコード](https://github.com/ayako/CogServicesSpeechSamples_201907) (C#(.NET Core,UWP), HTML/JavaScript)
 
 ### 動画分析
 
@@ -22,4 +22,4 @@ BS-D04「Microsoft Azure と AI で加速するデジタル改革」でご紹介
   
 ### Intelligent Kiosk
 
-- [Intelligent Kiosk](https://www.microsoft.com/ja-jp/p/intelligent-kiosk/9nblggh5qd84) (Windows Store アプリ)
+- [Intelligent Kiosk](https://www.microsoft.com/ja-jp/p/intelligent-kiosk/9nblggh5qd84) (Windows Store アプリ) インストール
