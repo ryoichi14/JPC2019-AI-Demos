@@ -1,4 +1,4 @@
-# Microsoft Japan Partner Conference 2019 AI Demos
+# Microsoft Japan Partner Conference 2019 : Microsoft Azure AI Demos
 
 BS-D04「Microsoft Azure と AI で加速するデジタル改革」でご紹介した Microsoft Azure AI デモ集です。
 
@@ -28,7 +28,9 @@ BS-D04「Microsoft Azure と AI で加速するデジタル改革」でご紹介
 
 - Azure Media Service - Video Indexer
   - [Video Indexer Webサイト](https://vi.microsoft.com/ja-jp/)
+  - <img src="videoIndexer201908_01.png" width="400px"><img src="videoIndexer201908_02.png" width="400px">
   
 ### Intelligent Kiosk
 
 - [Intelligent Kiosk](https://www.microsoft.com/ja-jp/p/intelligent-kiosk/9nblggh5qd84) (Windows Store アプリ) インストール
+- <img src="intelligentkiosk201908_01.png" width="400px"><img src="intelligentkiosk201908_02.png" width="400px">
