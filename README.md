@@ -1,6 +1,6 @@
 # Microsoft Japan Partner Conference 2019 AI Demos
 
-BS-D04「Microsoft Azure と AI で加速するデジタル改革」でご紹介した Microsoft AI デモ集です。
+BS-D04「Microsoft Azure と AI で加速するデジタル改革」でご紹介した Microsoft Azure AI デモ集です。
 
 ### Search & Intelligent Bot
 
