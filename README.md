@@ -10,10 +10,14 @@ BS-D04「Microsoft Azure と AI で加速するデジタル改革」でご紹介
   - [手書き認識デモサイト](https://inkrecognizer201908.azurewebsites.net/)
   - [ソースコード](tree/master/inkrecognizer) (HTML/JavaScript)
 
+<img src="inkrecognizer201908.png" width="400px">
+
 ### 音声認識(Speech to Text)、音声テキスト変換(Text to Speech)
 
 - Speech Service
   - [サンプルソースコード](https://github.com/ayako/CogServicesSpeechSamples_201907) (C#(.NET Core,UWP), HTML/JavaScript)
+
+<video controls width="400px"><source src="AzureCognitiveSpeechToText_201907.mp4"></video>
 
 ### 動画分析
 
