@@ -17,6 +17,7 @@ BS-D04「Microsoft Azure と AI で加速するデジタル改革」でご紹介
 - Speech Service
   - [サンプルソースコード](https://github.com/ayako/CogServicesSpeechSamples_201907) (C#(.NET Core,UWP), HTML/JavaScript)
 
+<img src="speechtotext201907.png" width="400px">
 <video controls width="400px"><source src="AzureCognitiveSpeechToText_201907.mp4"></video>
 
 ### 動画分析
