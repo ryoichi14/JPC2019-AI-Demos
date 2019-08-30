@@ -6,11 +6,11 @@ BS-D04「Microsoft Azure と AI で加速するデジタル改革」でご紹介
 
 - Azure Search
   - [商品検索Botデモサイト](https://swatchbot201908.azurewebsites.net/home.html)
-  - <img src="doc_images/watchbot201908.png" width="400px">
   - [ソースコード](tree/master/WatchFinder/AzureSearchWeb) (HTML/JavaScript)
+  - <img src="doc_images/watchbot201908.png" width="400px">
   - [商品検索デモサイト](https://swatchbot201908.azurewebsites.net/azsearch.html)
-  - <img src="doc_images/watchsearch201908.png" width="400px">
   - [ソースコード](tree/master/WatchFinder/WatchFinderWeb) (HTML/JavaScript)
+  - <img src="doc_images/watchsearch201908.png" width="400px">
 
 ### 手書き認識
 
