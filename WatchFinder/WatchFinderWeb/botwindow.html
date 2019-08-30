@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Bot Window</title>
+    <script type="text/javascript" src="https://cdn.botframework.com/botframework-webchat/master/webchat.js"></script>
+    <script type="text/javascript" src="botwindow.js"></script>
+    <style>
+      html, body { height: 100% }
+      body { margin: 0 }
+
+      #webchat,
+      #webchat > * {
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="webchat"></div>
+    <script>
+      const styleOptions = {
+        backgroundColor: 'transparent',
+        bubbleBackground: '#666',
+        bubbleBorder: 'solid 1px #999',
+        bubbleBorderRadius: 10,
+        bubbleTextColor: '#fff',
+        bubbleFromUserBackground: '#fff',
+        bubbleFromUserBorder: 'solid 1px #666',
+        bubbleFromUserBorderRadius: 10,
+        bubbleFromUserTextColor: '#333'
+      };
+      var datetimeNow = new Date()
+      var userName = "User_" + datetimeNow.getTime()
+
+      window.WebChat.renderWebChat({
+        directLine: window.WebChat.createDirectLine(
+          { secret: getKey() 
+          }),
+          cardActionMiddleware: () => next => async ({ cardAction }) => {
+            const { type, value } = cardAction;
+            switch (type) {
+             case 'openUrl':
+                  window.open(value,'_blank');
+               break;
+             default:
+               return next({ cardAction });
+            }
+          },
+          userID: userName,
+          styleOptions
+      }, document.getElementById('webchat'));
+
+    </script>
+  </body>
+</html>

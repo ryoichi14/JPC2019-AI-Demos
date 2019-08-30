@@ -1,5 +1,14 @@
+h1 { 
+  font-size: 2.5em; 
+}
+
+h2 { 
+  font-size: 1.5em; 
+}
+
 button {
-  width: 150px;
+  font-size: 1.5em; 
+  width: 200px;
   border: 1px solid #0066cc;
   background-color: #0099cc;
   color: #ffffff;
@@ -7,7 +16,7 @@ button {
 }
 
 button:hover {
-  width: 150px;
+  width: 200px;
   border: 1px solid #0099cc;
   background-color: #00aacc;
   color: #ffffff;
@@ -16,12 +25,22 @@ button:hover {
 
 button:disabled,
 button[disabled] {
-  width: 150px;
+  width: 200px;
   border: 1px solid #999999;
   background-color: #cccccc;
   color: #666666;
 }
 
+#languageTags {
+  font-size: 1.5em; 
+  width: 100px;
+  padding: 5px 10px;
+}
+
 textarea {
-    font-size: 16px;
+    font-size: 2em;
+}
+
+canvas {
+  font-size: 2em;
 }

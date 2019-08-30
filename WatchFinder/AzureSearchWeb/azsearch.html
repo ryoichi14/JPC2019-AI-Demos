@@ -46,11 +46,7 @@
                     <ul class="nav nav-sidebar">
                         <div className="panel panel-primary behclick-panel">
                             <li>
-                                <div id="ReleasedFacet">
-                                </div>
-                            </li>
-                            <li>
-                                <div id="CollectionFacet">
+                                <div id="WidthFacet">
                                 </div>
                             </li>
                             <li>
@@ -59,6 +55,22 @@
                             </li>
                             <li>
                                 <div id="StrapColorFacet">
+                                </div>
+                            </li>
+                            <li>
+                                <div id="DialColorFacet">
+                                </div>
+                            </li>
+                            <li>
+                                <div id="CaseColorFacet">
+                                </div>
+                            </li>
+                            <li>
+                                <div id="ReleasedFacet">
+                                </div>
+                            </li>
+                            <li>
+                                <div id="CollectionFacet">
                                 </div>
                             </li>
                             <li>
@@ -71,14 +83,6 @@
                             </li>
                             <li>
                                 <div id="ClaspTypeFacet">
-                                </div>
-                            </li>
-                            <li>
-                                <div id="DialColorFacet">
-                                </div>
-                            </li>
-                            <li>
-                                <div id="CaseColorFacet">
                                 </div>
                             </li>
                             <li>
@@ -136,6 +140,7 @@
    automagic.addCheckboxFacet("CaseColorFacet", "CaseColor", "string");
    automagic.addCheckboxFacet("CaseShapeFacet", "CaseShape", "string");
    automagic.addCheckboxFacet("CaseMaterialFacet", "CaseMaterial", "string");
+   automagic.addRangeFacet("WidthFacet", "CaseDimensions/width", "number", 30, 47);
 
 </script>
 <style>

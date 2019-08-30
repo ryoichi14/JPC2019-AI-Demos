@@ -197,25 +197,25 @@
 
 <body onload="init()">
   <div id='bodyDiv'>
-    <div id='titleDiv' style='height:120px; margin-left:10px;'>
+    <div id='titleDiv' style='height:200px; margin-left:10px;'>
       <h1>手書き文字＆図形認識</h1>
-      powered by Ink Recognizer - Microsoft Azure Cognitive Services
-    </div>
-    <div id='mainDiv'>
-      <div id='leftDiv' style='position: absolute; width:50%; margin-left:10px;'>
+      <h2>powered by Ink Recognizer - Microsoft Azure Cognitive Services</h2>
         <div id='controlBar' style='width=100%; height:50px; display: block'>
           <button id='clearButton'>クリア</button>
           <button id='recognizeButton'>ストローク認識</button>
           <button id='convertButton'>変換</button>
           <select id="languageTags"></select>
         </div>
-        <div id='visualContainer' style='height:710px' class='inkingArea'>
+    </div>
+    <div id='mainDiv'>
+      <div id='leftDiv' style='position: absolute; width:50%; margin-left:10px;'>
+        <div id='visualContainer' style='height:71px' class='inkingArea'>
           <canvas id='inkCanvas' width="700" height="614"
             style='position: absolute; border:2px solid #CCC;touch-action:none;'></canvas>
         </div>
       </div>
       <div id='rightDiv' style='position: absolute; width:45%; left:750px;'>
-        <div id='resultBar' style='height:50px;'></div>
+        <div id='resultBar'></div>
         <textarea id='requestBox' readonly style="width:100%; height:300px; border:1px solid #CCC"></textarea>
         <textarea id='responseBox' readonly style="width:100%; height:300px; border:1px solid #CCC"></textarea>
       </div>
